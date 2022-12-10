@@ -1,5 +1,5 @@
 # MC-Heap
-Heap memory allocator (malloc, free, ...) for microcontrollers, and more (should work everywhere) O(1) operations
+Heap memory allocator for microcontrollers, and more (should work everywhere). Ultra fast and efficient, O(1) operations
 
 MC-Heap is a heap allocator (malloc, free, ...) that was designed for microcontrollers (currently running on ARM Cortex M4), but it can be used anywhere - I use it for testing on a macbook. The main limitation when not used on a microcontroller is that it's not been designed to grow dynamically.
 
